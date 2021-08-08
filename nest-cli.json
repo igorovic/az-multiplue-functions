@@ -1,0 +1,32 @@
+{
+  "collection": "@nestjs/schematics",
+  "projects": {
+    "feat-a": {
+      "type": "application",
+      "root": "apps/feat-a",
+      "entryFile": "main",
+      "sourceRoot": "apps/feat-a/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/feat-a/tsconfig.app.json"
+      }
+    },
+    "feat-b": {
+      "type": "application",
+      "root": "apps/feat-b",
+      "entryFile": "main",
+      "sourceRoot": "apps/feat-b/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/feat-b/tsconfig.app.json"
+      }
+    },
+    "feat-c": {
+      "type": "application",
+      "root": "apps/feat-c",
+      "entryFile": "main",
+      "sourceRoot": "apps/feat-c/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/feat-c/tsconfig.app.json"
+      }
+    }
+  }
+}
